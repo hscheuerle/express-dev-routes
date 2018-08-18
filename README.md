@@ -4,13 +4,16 @@ my development toolkit for express applications
 ```
 ((app: Express)._router.stack): [Layer]
 
-Layer: {
+[Layer: {
     handle: func,
     name: string,
     params: '',
     path: '',
     keys: [],
     regexp: object,
-    route: ''
-}]
-````
+
+    // if (app.get || app.post || app.put || app.delete) {}
+    route: Route { path: '/', stack: [Array], methods: [Object] }
+}];
+
+```
