@@ -6,6 +6,8 @@ my development toolkit for express applications
 
 [Layer: {
     handle: func,
+    // name of the function, Express.Router is 'router'
+    // app.method is 'bound dispatch'
     name: string,
     params: '',
     path: '',
@@ -14,6 +16,6 @@ my development toolkit for express applications
 
     // if (app.get || app.post || app.put || app.delete) {}
     route: Route { path: '/', stack: [Array], methods: [Object] }
-}];
+}]
 
 ```
