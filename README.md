@@ -1,2 +1,2 @@
 # express-dev-routes
-personall repo to put middleware for express
+personal repo to put middleware for express
